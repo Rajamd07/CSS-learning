@@ -1,3 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>javascript is fun , but so is html & css!</h1>
+    <p class="first">
+      Lorem ipsum dolor sit amet consectetur adipisicing
+      <a href="https://github.com/Rajamd07/daily-challenges.git">my git</a>.
+    </p>
+    <h2>another headind</h2>
+    <p class="second">nothing is here</p>
+    <img id="git-image" src="image.png" alt="git image" />
+    <form id="your-name">
+      <h2>your name here</h2>
+      <p class="first">please fill in this form!</p>
+      <input id="name" type="text" placeholder="enter your name" />
+      <button>ok</button>
+    </form>
+  </body>
+</html>
+===============================================================================================================================
+
 * {
   margin: 0;
   padding: 0;
