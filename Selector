@@ -3,81 +3,74 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>javascript is fun , but so is html & css!</h1>
-    <p class="first">
-      Lorem ipsum dolor sit amet consectetur adipisicing
-      <a href="https://github.com/Rajamd07/daily-challenges.git">my git</a>.
-    </p>
-    <h2>another headind</h2>
-    <p class="second">nothing is here</p>
-    <img id="git-image" src="image.png" alt="git image" />
-    <form id="your-name">
-      <h2>your name here</h2>
-      <p class="first">please fill in this form!</p>
-      <input id="name" type="text" placeholder="enter your name" />
-      <button>ok</button>
-    </form>
+    <h1>css seletors</h1>
+    <article>
+      <h2>article 1</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error illo
+        suscipit necessitatibus cumque mollitia veritatis iste quos, numquam
+        amet. Error sunt modi nisi similique. Velit minima consectetur ipsum
+        totam unde.
+      </p>
+    </article>
+    <article>
+      <h2>article 2</h2>
+      <p id="second" class="gray">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus,
+        omnis dicta! Molestias sunt error pariatur, harum corporis, eaque maxime
+        cupiditate maiores reprehenderit, <span>dicta</span> aspernatur.
+        Blanditiis, possimus! Eligendi consequuntur animi iure.
+      </p>
+    </article>
+    <article>
+      <h2>article 3</h2>
+      <p id="third" class="gray">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, sit.
+        Nulla ea, aut impedit labore totam sequi? Quasi a
+        <span class="highlight">quam</span> enim iure. Minus reiciendis quam
+        obcaecati quae, animi porro molestiae.
+      </p>
+    </article>
   </body>
 </html>
+  
 ===============================================================================================================================
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  font-family: monospace;
 }
 
 body {
-  background-color: rgb(238, 235, 160);
-  font-family: Arial;
-  font-size: 20px;
-  padding: 50px;
-}
-
-h1 {
-  font-size: 35px;
-  margin-bottom: 25px;
-}
-
-h2 {
-  margin-bottom: 20px;
-  text-align: center;
+  font-size: 22px;
 }
 
 p {
-  margin-bottom: 20px;
+  color: purple;
 }
 
-.first {
-  color: red;
+p span {
+  text-transform: uppercase;
+  background-color: gold;
 }
 
-#your-name {
-  background-color: blanchedalmond;
-  border: 5px solid #444;
-  width: 400px;
-  padding: 25px;
-  margin-top: 20px;
+.highlight {
+  text-transform: uppercase;
+  background-color: red;
 }
 
-input,
-button {
-  padding: 10px;
-  font-size: 16px;
+.gray {
+  color: gray;
 }
 
-a {
-  background-color: yellowgreen;
+#second {
+  font-style: italic;
 }
 
-#git-image {
-  width: 400px;
-}
-
-#your-name h2 {
-  color: olivedrab;
+h1,
+h2 {
+  color: blue;
 }
